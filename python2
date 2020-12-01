@@ -1,0 +1,11 @@
+n=int(input("Enter the value till u want fibonacci series :"))
+sum=0
+i=0
+j=1
+c=1
+while(c<=n):
+    print(sum)
+    c+=1
+    i=j
+    j=sum
+    sum=i+j
